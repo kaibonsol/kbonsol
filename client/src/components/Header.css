@@ -1,0 +1,26 @@
+header {
+    height:125px;
+    padding:10px;
+    padding-left:50px;
+    width:100%;
+    background-color:#333;
+    color:whitesmoke;
+    text-align:center;
+    font-size:30px;
+    display:flex;
+    /* justify-content:flex-end; */
+    align-items:center; 
+}
+
+.logo {
+    width:20%;
+}
+
+.navbar {
+    width:80%;
+}
+
+.navbar ul li {
+    display:inline-block;
+    margin-left:40px;
+}
