@@ -6,10 +6,10 @@ export default function Navbar() {
     return (
         <div className='navbar'>
             <ul>
-                <li>Contact</li>
-                <li>GitHub</li>
-                <li>DevPost</li>
-                <li>Spotify</li>
+                <li><img src='contactlogo.png'/></li>
+                <li><img src='gitlogo.png'/></li>
+                <li><img src='devlogo.png'/></li>
+                <li><img src='spotifylogo.png'/></li>
             </ul>
         </div>
     )

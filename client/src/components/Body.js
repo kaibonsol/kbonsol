@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Body() {
     return (
-        <div>
+        <div className="body">
             <h1>Welcome to my website!</h1>
         </div>
     )
