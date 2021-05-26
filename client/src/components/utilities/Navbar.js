@@ -1,4 +1,5 @@
 import React from 'react'
+import NavbarButton from './NavbarButton'
 
 export default function Navbar() {
 
@@ -6,10 +7,10 @@ export default function Navbar() {
     return (
         <div className='navbar'>
             <ul>
-                <li><img src='contactlogo.png'/></li>
-                <li><img src='gitlogo.png'/></li>
-                <li><img src='devlogo.png'/></li>
-                <li><img src='spotifylogo.png'/></li>
+                <NavbarButton imgUrl="contactlogo.png" to=""/>
+                <NavbarButton imgUrl="devlogo.png" to=""/>
+                <NavbarButton imgUrl="gitlogo.png" to=""/>
+                <NavbarButton imgUrl="spotifylogo.png" to=""/>
             </ul>
         </div>
     )
