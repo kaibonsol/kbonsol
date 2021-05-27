@@ -11,11 +11,13 @@ header {
     display:flex;
     /* justify-content:flex-end; */
     align-items:center; 
+    text-shadow: #000 0px 0px 4px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .logo {
     width:20%;
-    margin-left:20px;
+    margin-left:2.5%;
 }
 
 .navbar {

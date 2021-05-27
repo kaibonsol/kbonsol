@@ -2,4 +2,7 @@
     text-align:center;
     margin-left:6%;
     margin-top:10%;
+    text-shadow: #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
 }
+
