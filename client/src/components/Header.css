@@ -24,3 +24,13 @@ header {
     display:inline-block;
     margin-left:40px;
 }
+
+.img-ico {
+    transition: transform .2s;
+    width:100px;
+    height:100px;
+}
+
+.img-ico:hover {
+    transform: scale(1.5);
+}

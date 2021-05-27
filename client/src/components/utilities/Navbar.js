@@ -7,10 +7,10 @@ export default function Navbar() {
     return (
         <div className='navbar'>
             <ul>
-                <NavbarButton imgUrl="contactlogo.png" to=""/>
-                <NavbarButton imgUrl="devlogo.png" to=""/>
-                <NavbarButton imgUrl="gitlogo.png" to=""/>
-                <NavbarButton imgUrl="spotifylogo.png" to=""/>
+                <NavbarButton imgUrl="contactlogo.png" link="/" name="Contact"/>
+                <NavbarButton imgUrl="devlogo.png" link="/" name="DevPost"/>
+                <NavbarButton imgUrl="gitlogo.png" link="/" name="GitHub"/>
+                <NavbarButton imgUrl="spotifylogo.png" link="/" name="Spotify"/>
             </ul>
         </div>
     )
