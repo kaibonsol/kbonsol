@@ -39,15 +39,19 @@ function Header() {
     const navbarPush = {
         marginRight: "10%",
     }
+    const navbarPush2 = {
+        marginRight: "20%",
+    }
 
 
     return (
-
-        <header style={dimensions.width < 1026 ? {} : browserStyle}>
+        <>
+        <header style={dimensions.width < 1042 ? {} : browserStyle}>
             <Logo />
-            <Navbar style={dimensions.width < 1026 ? navbarPush : navbarPush}/>
+            <Navbar style={dimensions.width < 528 ? navbarPush2 : navbarPush}/>
         </header>
-
+        <div>Rendered at {dimensions.width} x {dimensions.height}</div>
+        </>
     )
 }
 
