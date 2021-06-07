@@ -1,11 +1,13 @@
 import React from 'react'
 import NavbarButton from './NavbarButton'
 
-export default function Navbar() {
+export default function Navbar(props) {
 
 
     return (
-        <div className='navbar'>
+        
+        
+        <div style={props.style} className='navbar'>
             <ul>
                 {/* <NavbarButton imgUrl="contactlogo.png" link="" name="Contact"/> */}
                 <NavbarButton imgUrl="devlogo.png" link="https://devpost.com/kaibonsol" name="DevPost"/>

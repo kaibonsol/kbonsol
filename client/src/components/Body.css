@@ -1,8 +1,15 @@
 .body {
     text-align:center;
-    margin-left:6%;
+    /* margin-left:6%; */
     margin-top:10%;
     text-shadow: #000 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
+    text-align:center;
+    font-size:15px;
+    min-height:50vh;
+    /* display:flex; */
+    width:100%;
+    justify-content:center;
+    position:relative;
 }
 
