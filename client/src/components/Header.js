@@ -50,7 +50,6 @@ function Header() {
             <Logo />
             <Navbar style={dimensions.width < 528 ? navbarPush2 : navbarPush}/>
         </header>
-        <div>Rendered at {dimensions.width} x {dimensions.height}</div>
         </>
     )
 }
