@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Panel from './static/Panel'
 
 import './Body.css'
 
@@ -8,7 +9,9 @@ export class Body extends Component {
         super()
         this.state = {
             loading: false,
-            resume: {}
+            resume: {
+                "panels":[{"content":[]}]
+            }
         }
     }
 
@@ -26,10 +29,15 @@ export class Body extends Component {
     
     render() {
         const resume = this.state.resume
+        const panelComponents = resume.panels.map(panel => {
+            const descElems = [panel.desc1, panel.desc2]
+            return <Panel content={descElems} />
+        })
         return (
             <div className="body">
                 <h1>{resume.welcomeMessage}</h1>
                 <h2>{resume.welcomeMessage2}</h2>
+                {panelComponents}
             </div>
         )
     }

@@ -1,6 +1,32 @@
 {
-    "fname": "Kai",
-    "lname": "Bonsol",
-    "welcomeMessage": "Welcome to my website!",
-    "welcomeMessage2": "Hello prospective employer, fellow student, or random person who stumbled upon this site!"
+    "welcomeMessage": 
+    "Welcome to my website!",
+    "welcomeMessage2": 
+    "Hello prospective employer, fellow student, or random person who stumbled upon this site",
+    "panels": [
+        {
+            "title": 
+            "Who am I?",
+            "desc1":
+            "My name is Kai, I am studying Computer Science at the University of Illinois at Chicago.",
+            "desc2": 
+            "I am a tech enthusiast with broad interests in machine learning and fullstack development."
+        },
+        {
+            "title":
+            "Skills",
+            "desc1":"",
+            "desc2":"",
+            "meters": [
+                {
+                    "head" : "C++",
+                    "value" : 10
+                },
+                {
+                    "head" : "Java",
+                    "value" : 9
+                }
+            ]
+        }
+    ]
 }

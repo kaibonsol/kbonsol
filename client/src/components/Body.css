@@ -1,11 +1,11 @@
 .body {
     text-align:center;
     /* margin-left:6%; */
-    margin-top:10%;
+    margin-top:7%;
     text-shadow: #000 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
     text-align:center;
-    font-size:1em;
+    font-size:0.9em;
     min-height:40vh;
     /* display:flex; */
     width:100%;
