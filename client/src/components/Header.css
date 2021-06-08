@@ -7,7 +7,7 @@ header {
     background-color:rgb(200, 160, 238);
     color:whitesmoke;
     text-align:center;
-    font-size:30px;
+    font-size:2em;
     /* display:flex;
     justify-content:space-between; */
     align-items:center; 
@@ -20,10 +20,6 @@ header {
     margin-left:2.5%;
 }
 
-.navbar {
-    /* width:40%; */
-    /* padding-right:0 */
-}
 
 .navbar ul li {
     display:inline-block;

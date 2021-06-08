@@ -46,7 +46,7 @@ function Header() {
 
     return (
         <>
-        <header style={dimensions.width < 1042 ? {} : browserStyle}>
+        <header style={dimensions.width < 1064 ? {} : browserStyle}>
             <Logo />
             <Navbar style={dimensions.width < 528 ? navbarPush2 : navbarPush}/>
         </header>

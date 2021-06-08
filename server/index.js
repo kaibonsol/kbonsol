@@ -5,6 +5,11 @@ const app = express();
 
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
+// resume GET route
+app.get('/resume', (req, res) => {
+    res.sendFile(path.join(__dirname, './src', 'resume.json'))
+})
+
 app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
 });
