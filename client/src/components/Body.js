@@ -38,7 +38,7 @@ export class Body extends Component {
 
         const resume = this.state.resume
         const panelComponents = resume.panels.map(panel => {
-            return <Panel title={panel.title} content={panel.desc} />
+            return <Panel title={panel.title} content={panel.desc} meters={panel.meters}/>
         })
 
         return (
