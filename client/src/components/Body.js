@@ -8,7 +8,7 @@ export class Body extends Component {
     constructor() {
         super()
         this.state = {
-            loading: false,
+            loading: true,
             resume: {
                 "panels":[{"content":[]}]
             }
@@ -28,10 +28,15 @@ export class Body extends Component {
     }
     
     render() {
+        if(this.state.loading)
+            return (
+                <div className="body">
+                    <h1>Loading...</h1>
+                </div> 
+            )
         const resume = this.state.resume
         const panelComponents = resume.panels.map(panel => {
-            const descElems = [panel.desc1, panel.desc2]
-            return <Panel content={descElems} />
+            return <Panel content={panel.desc} />
         })
         return (
             <div className="body">

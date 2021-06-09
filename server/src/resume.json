@@ -7,16 +7,17 @@
         {
             "title": 
             "Who am I?",
-            "desc1":
-            "My name is Kai, I am studying Computer Science at the University of Illinois at Chicago.",
-            "desc2": 
-            "I am a tech enthusiast with broad interests in machine learning and fullstack development."
+            "desc": [
+                "My name is Kai, I am studying Computer Science at the University of Illinois at Chicago.",
+                "I am a tech enthusiast with broad interests in machine learning and fullstack development."
+            ]
         },
         {
             "title":
             "Skills",
-            "desc1":"",
-            "desc2":"",
+            "desc": [
+                "Here is a visual summary of my skillset"
+            ],
             "meters": [
                 {
                     "head" : "C++",
