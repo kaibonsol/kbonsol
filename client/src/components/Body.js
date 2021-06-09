@@ -28,16 +28,19 @@ export class Body extends Component {
     }
     
     render() {
-        if(this.state.loading)
+        if(this.state.loading) {
             return (
                 <div className="body">
                     <h1>Loading...</h1>
                 </div> 
             )
+        }
+
         const resume = this.state.resume
         const panelComponents = resume.panels.map(panel => {
-            return <Panel content={panel.desc} />
+            return <Panel title={panel.title} content={panel.desc} />
         })
+
         return (
             <div className="body">
                 <h1>{resume.welcomeMessage}</h1>

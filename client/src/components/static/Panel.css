@@ -8,3 +8,10 @@
     justify-content:center;
     float:center;
 }
+
+.title {
+    /* text-decoration: underline #acf4b1; */
+    padding-bottom: 7px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
