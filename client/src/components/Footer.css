@@ -1,6 +1,6 @@
 footer {
     height:125px;
-    padding:10px;
+    padding:2%;
     /* padding-left:50px; */
     width:100%;
     /* background-color:#333; */
@@ -8,9 +8,14 @@ footer {
     color:whitesmoke;
     text-align:center;
     font-size:0.7em;
-    display:flex;
+    /* display:flex; */
     justify-content:center;
     align-items:center;
     position:absolute;
     /* bottom:0; */
+}
+
+footer a {
+    text-decoration:none;
+    color:#acf4b1;
 }

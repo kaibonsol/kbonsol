@@ -4,11 +4,14 @@ import "./Meter.css"
 
 function Meter(props) {
     console.log(props)
+    const styles = {
+        width:"12%"
+    }
     return (
-        <div>
-            <h3>{props.head}</h3>
-            <meter max={10} min={0} value={props.val}></meter>
-        </div>
+        <tr>
+            <td style={styles}><h3>{props.head}</h3></td>
+            <td><meter max={10} min={0} value={props.val}></meter></td>
+        </tr>
     )
 }
 

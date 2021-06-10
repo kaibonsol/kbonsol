@@ -24,9 +24,41 @@
                     "value" : 10
                 },
                 {
-                    "head" : "Java",
+                    "head" : "Python",
                     "value" : 9
+                },
+                {
+                    "head" : "Java",
+                    "value" : 8
+                },
+                {
+                    "head" : "F#",
+                    "value" : 5
                 }
+            ]
+        },
+        {
+            "title" : "Projects",
+            "desc" : [
+                "Here are my featured projects"
+            ],
+            "items" : [
+                {
+                    "name" : "Using Twitter to Predict Presidential Approval Rating",
+                    "src" : ""
+                }
+            ]
+        },
+        {
+            "title" : "Work Experience",
+            "desc" : [
+                "Here is my relevant work experience"
+            ]
+        },
+        {
+            "title" : "Classwork",
+            "desc" : [
+                "Here are my relevant courses and final grades"
             ]
         }
     ]

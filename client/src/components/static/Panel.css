@@ -15,3 +15,8 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
 }
+
+table, th, td {
+    text-align: left;
+    width:100%;
+}
