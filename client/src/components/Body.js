@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Panel from './static/Panel'
 
 import './Body.css'
+import FadeInSection from './utilities/FadeInSection'
 
 export class Body extends Component {
     
@@ -38,7 +39,7 @@ export class Body extends Component {
 
         const resume = this.state.resume
         const panelComponents = resume.panels.map(panel => {
-            return <Panel title={panel.title} content={panel.desc} meters={panel.meters} items={panel.items}/>
+            return <FadeInSection><Panel title={panel.title} content={panel.desc} meters={panel.meters} items={panel.items}/></FadeInSection> 
         })
 
         return (
