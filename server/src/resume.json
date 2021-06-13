@@ -9,14 +9,14 @@
             "Who am I?",
             "desc": [
                 "My name is Kai, I am studying Computer Science at the University of Illinois at Chicago.",
-                "I am a tech enthusiast with broad interests in machine learning and fullstack development."
+                "I am a tech enthusiast with broad interests in machine learning and full stack development."
             ]
         },
         {
             "title":
-            "Skills",
+            "Programming Languages & Frameworks",
             "desc": [
-                "Here is a visual summary of my skillset"
+                "Here is a visual estimate of my relative comfort for the languages & frameworks I have experience working with."
             ],
             "meters": [
                 {
@@ -54,12 +54,56 @@
             "title" : "Work Experience",
             "desc" : [
                 "Here is my relevant work experience"
+            ],
+            "items" : [
+                {
+                    "name" : "Data Structures Teaching Assistant",
+                    "desc" : "Reviewed and debugged student code, helping on average 30 students per day."
+                },
+                {
+                    "name" : "Programming Praticum Teaching Assistant",
+                    "desc" : "Hello"
+                }
             ]
         },
         {
             "title" : "Classwork",
             "desc" : [
-                "Here are my relevant courses and final grades"
+                "Here are my relevant courses"
+            ],
+            "items" : [
+                {
+                    "name" : "Data Structures",
+                    "tbl" : 1
+                },
+                {
+                    "name" : "Software Design",
+                    "tbl" : 1
+                },
+                {
+                    "name" : "Artificial Intelligence",
+                    "tbl" : 1
+                },
+                {
+                    "name" : "Machine Learning",
+                    "tbl" : 1
+                },
+                {
+                    "name" : "Systems Programming",
+                    "tbl" : 1
+                },
+                {
+                    "name" : "Programming Languages",
+                    "tbl" : 1
+                },
+                {
+                    "name" : "Data Science",
+                    "tbl" : 1
+                },
+                {
+                    "name" : "Algorithms",
+                    "tbl" : 1
+                }
             ]
         }
     ]
