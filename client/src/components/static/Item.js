@@ -45,12 +45,6 @@ function Item(props) {
         style["marginLeft"] = "-10%"
         style["display"] = "block"
     }
-    else
-    {
-        style["display"] = "inline-block"
-        style["marginRight"] = "10%"
-        style["marginBottom"] = "5%"
-    }
 
     return (
         <li style={style}>
