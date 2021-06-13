@@ -9,7 +9,7 @@ function Item(props) {
     const desc = data.desc && <div className="desc">{props.data.desc}. <div>{src}</div></div> 
 
     // if tbl is set then set li style to display:inline-block
-    const style = data.tbl ? {display: "inline-block", marginRight:"10%", marginBottom:"3%"} : {display: "block"}
+    const style = data.tbl ? {display: "inline-block", marginRight:"10%", marginBottom:"5%"} : {display: "block"}
 
     return (
         <li style={style}>

@@ -14,9 +14,9 @@
         },
         {
             "title":
-            "Programming Languages & Frameworks",
+            "Skills",
             "desc": [
-                "Here is a visual estimate of my relative comfort for the languages & frameworks I have experience working with."
+                "Here is a visual estimate of my relative comfort for different skills."
             ],
             "meters": [
                 {
@@ -32,44 +32,95 @@
                     "value" : 8
                 },
                 {
-                    "head" : "F#",
+                    "head" : "JavaScript",
+                    "value" : 8
+                },
+                {
+                    "head" : "GDB",
+                    "value" : 6
+                },
+                {
+                    "head" : "MySQL",
+                    "value" : 6
+                },
+                {
+                    "head" : "CSS",
+                    "value" : 6
+                },
+                {
+                    "head" : "React",
                     "value" : 5
+                },
+                {
+                    "head" : "Node.js",
+                    "value" : 5
+                },
+                {
+                    "head" : "F#",
+                    "value" : 4
+                },
+                {
+                    "head" : "C#",
+                    "value" : 4
                 }
+
             ]
         },
         {
-            "title" : "Projects",
-            "desc" : [
-                "Here are my featured projects"
-            ],
+            "title" : "Featured Projects",
+            "desc" : [],
             "items" : [
                 {
                     "name" : "BidenTwitter",
-                    "desc" : "Designed and evaluated a variety of regression models that could predict presidential approval rating from Twitter interactivity metrics",
+                    "desc" : "Individual project for CS412 at UIC. Designed and evaluated a variety of regression models that could predict presidential approval rating from Twitter interactivity metrics",
                     "src" : "https://github.com/kaibonsol/biden-twitter"
-                }
-            ]
-        },
-        {
-            "title" : "Work Experience",
-            "desc" : [
-                "Here is my relevant work experience"
-            ],
-            "items" : [
-                {
-                    "name" : "Data Structures Teaching Assistant",
-                    "desc" : "Reviewed and debugged student code, helping on average 30 students per day."
                 },
                 {
-                    "name" : "Programming Praticum Teaching Assistant",
-                    "desc" : "Hello"
+                    "name" : "Food Connections",
+                    "desc" : "Team project for HackIllinois 2021. A web app that allowed users to enter as many addresses as they want to suggest restaurants closest to all of them, I worked on full stack development",
+                    "src" : "https://github.com/lucasb16-exe/azureHackIllinoisTesting"
+                },
+                {
+                    "name" : "GiraffeNews",
+                    "desc" : "Team project for HackDavis 2021. A web app that scraped change.org petition data and used simple natural language processing in order to match relevant petitions to news articles grabbed from an API. I did all of the back end",
+                    "src" : "https://github.com/SantaKaus/Hack-Davis"
+                },
+                {
+                    "name" : "Adopt Our Classroom",
+                    "desc" : "Ongoing team service learning project. A web app that facilitates long term connections with CPS classrooms and industry/academic professionals, using MERN stack"
+                },
+                {
+                    "name" : "chilldudes",
+                    "desc" : "Ongoing team project that I started. A web app for finding friends with an academic focus; currently looking for collaborators, feel free to contact me on LinkedIn for more information"
                 }
             ]
         },
         {
-            "title" : "Classwork",
+            "title" : "Relevant Work Experience",
+            "desc" : [],
+            "items" : [
+                {
+                    "name" : "UIC Data Structures Teaching Assistant",
+                    "desc" : "Hold office hours to review and debug student's code on elaborate projects, explain data structures, algorithms, time and space efficiency. Assist graduate TAs in holding and organizing lab exercises for up to 50 students per session, assist professor in preflighting projects and give technical feedback. I held this position in Fall 2020, Spring 2021, and Summer 2021."
+                },
+                {
+                    "name" : "UIC Programming Praticum Teaching Assistant",
+                    "desc" : "Hold office hours to review and debug student's code, explain C pointers, memory diagrams, and object oriented constructs of C++, helped professor by producing starter codes for the projects. I held this position in the Summer of 2020"
+                },
+                {
+                    "name" : "Breakthrough Tech Teaching Assistant",
+                    "desc" : "Program with a goal of increasing gender diversity in the tech industry, teaching assistant role for an all female/non-binary introductory CS course. This was a much more student focused TA position that I did in the Summer of 2021"
+                },
+                {
+                    "name" : "UIC Calculus 1 Grader",
+                    "desc" : "Developed grading rubrics with LaTeX and provided elaborate feedback on assignments, communicated with faculty to ensure proper grading protocols were followed. I held this position for the Spring 2020, Fall 2020, and Spring 2021 semesters"
+                }
+            ]
+        },
+        {
+            "title" : "Relevant Courses",
             "desc" : [
-                "Here are my relevant courses"
+                "Courses taken at UIC, GPA: 4.0"
             ],
             "items" : [
                 {
