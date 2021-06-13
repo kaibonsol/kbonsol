@@ -68,7 +68,7 @@
         },
         {
             "title" : "Featured Projects",
-            "desc" : [],
+            "desc" : ["This list is not exhaustive, feel free to inquire about other projects."],
             "items" : [
                 {
                     "name" : "BidenTwitter",

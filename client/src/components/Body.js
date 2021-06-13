@@ -44,8 +44,10 @@ export class Body extends Component {
 
         return (
             <div className="body">
-                <h1>{resume.welcomeMessage}</h1>
-                <h2>{resume.welcomeMessage2}</h2>
+                <div className="wrap">
+                    <h1>{resume.welcomeMessage}</h1>
+                    <h2>{resume.welcomeMessage2}</h2>
+                </div>
                 {panelComponents}
             </div>
         )

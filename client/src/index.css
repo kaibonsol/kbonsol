@@ -24,3 +24,8 @@ a {
 a:hover {
   text-decoration:underline;
 }
+
+.wrap {
+  width:90%;
+  margin:auto;
+}
