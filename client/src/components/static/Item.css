@@ -1,0 +1,18 @@
+li {
+    display: block;
+}
+
+.src, .desc, .name {
+    text-align:left;
+}
+
+.name {
+    font-size:24px;
+}
+
+.desc{
+    border: 1px solid;
+    padding:2%;
+    font-size:17px;
+    margin-top:0.5%;
+}

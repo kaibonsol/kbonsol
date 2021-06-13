@@ -44,8 +44,8 @@
             ],
             "items" : [
                 {
-                    "name" : "Using Twitter to Predict Presidential Approval Rating",
-                    "desc" : "Tested a variety of regression models ",
+                    "name" : "BidenTwitter",
+                    "desc" : "Designed and evaluated a variety of regression models that could predict presidential approval rating from Twitter interactivity metrics",
                     "src" : "https://github.com/kaibonsol/biden-twitter"
                 }
             ]
