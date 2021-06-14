@@ -36,15 +36,9 @@ function Item(props) {
     const desc = data.desc && <div className="desc">{props.data.desc}. <div>{src}</div></div> 
 
     // if tbl is set then set li style to display:inline-block
-    var style = data.tbl ? {display: "inline-block", marginRight:"10%", marginBottom:"5%"} : {display: "block"}
+    const style = data.tbl ? {display: "inline-block", marginRight:"10%", marginBottom:"5%"} : 
+                           dimensions.width >= 528 ? {display: "block"} : {margin:"auto", marginLeft:"-10%", display:"block"}
 
-    // if mobile bring the items back by 10%
-    if(dimensions.width < 528)
-    {
-        style["margin"] = "auto"
-        style["marginLeft"] = "-10%"
-        style["display"] = "block"
-    }
 
     return (
         <li style={style}>
