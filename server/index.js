@@ -5,6 +5,11 @@ const app = express();
 
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
+const cors = require('cors');
+app.use(cors({
+    origin: '*'
+}))
+
 // resume GET route
 app.get('/resume', (req, res) => {
     res.sendFile(path.join(__dirname, './src', 'resume.json'))
