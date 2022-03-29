@@ -17,7 +17,17 @@ app.get('/resume', (req, res) => {
 
 app.get('/grades', (req, res) => {
     //console.log(Object.keys(req.query)[0])
-    res.sendFile(path.join(__dirname, './src', Object.keys(req.query)[0] + '.json'))
+    var term = Object.keys(req.query)[0]
+    if (term.toLowerCase().startsWith("sp")) 
+        term = "p" + term.slice(-2);
+    else if (term.toLowerCase().startsWith("su"))
+        term = "u" + term.slice(-2);
+    else if (term.toLowerCase().startsWith("fa"))
+        term = "fa" + term.slice(-2);
+    else 
+        return;
+        
+    res.sendFile(path.join(__dirname, './src', term + '.json'))
 })
 
 app.get('*', (req, res) => {
